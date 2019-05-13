@@ -10,7 +10,7 @@ image catgirl young smiling = "images/characters/catgirl/young/smiling.png"
 #Wolf
 image wolf before = "images/characters/wolf/before/default.png"
 image wolf after = "images/characters/wolf/after/default.png"
-image wolf after = "images/characters/wolf/after/upset.png"
+image wolf after upset = "images/characters/wolf/after/upset.png"
 
 #Background Art
 image bg eantioch = "images/backgrounds/eantioch.png"
