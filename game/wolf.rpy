@@ -10,7 +10,8 @@ label wolf:
 
     show bg black
     with dissolve
-    show wolf timejump
+
+    "At the start of the next school year."
 
     show bg eantioch
     with dissolve

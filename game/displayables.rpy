@@ -17,4 +17,4 @@ image bg eantioch = "images/backgrounds/eantioch.png"
 image bg black = "#000"
 
 #Misc Displayables
-image wolf timejump text = Text(_("At the start of the next school year."), size=50)
+#image wolf timejump text = Text(_("At the start of the next school year."), size=50)

@@ -1,29 +1,29 @@
-Mon May 13 17:01:27 2019
+Mon May 13 17:16:14 2019
 Linux-4.20.0-15.1-liquorix-amd64-x86_64-with-debian-buster-sid
 Ren'Py 7.2.2.491
  
 
-Bootstrap to the start of init.init took 0.10s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.11s
-Loading save slot metadata. took 0.00s
+Bootstrap to the start of init.init took 0.09s
+Early init took 0.07s
+Loader init took 0.02s
+Loading error handling took 0.11s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
+Running init code took 0.44s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
-Creating interface object took 0.03s
+Creating interface object took 0.58s
 Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
+Init translation took 0.05s
+Build styles took 0.02s
 Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
@@ -293,77 +293,18 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 0.921268939972s
+Total time until interface ready: 4.20829796791s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.004563 seconds.
-- Frame drawn at 0.015546 seconds.
-- Frame drawn at 0.032431 seconds.
-- Frame drawn at 0.049214 seconds.
-- 0.049214 seconds to render 5 frames.
-
-Full traceback:
-  File "game/wolf.rpy", line 7, in script
-    cg "See ya next year, Emily."
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/ast.py", line 657, in execute
-    statement_name("say")
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/ast.py", line 45, in statement_name
-    i(name)
-  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
-    _window_show()
-  File "renpy/common/000window.rpy", line 60, in _window_show
-    renpy.with_statement(trans)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/exports.py", line 1578, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/core.py", line 2240, in do_with
-    clear=clear)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/core.py", line 2690, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/core.py", line 3174, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/core.py", line 2086, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 516, in renpy.display.render.render_screen
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/transition.py", line 360, in render
-    bottom = render(self.old_widget, width, height, st, at)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/image.py", line 500, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/image.py", line 306, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/im.py", line 580, in render
-    return cache.get(self, render=True)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/im.py", line 266, in get
-    surf = image.load()
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/im.py", line 625, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/loader.py", line 576, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'images/backgrounds/eantioch.png'.
-
-While loading <'Image' u'images/backgrounds/eantioch.png'>:
-  File "game/wolf.rpy", line 7, in script
-    cg "See ya next year, Emily."
-  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
-    _window_show()
-  File "renpy/common/000window.rpy", line 60, in _window_show
-    renpy.with_statement(trans)
-IOError: Couldn't find file 'images/backgrounds/eantioch.png'.
+- Frame drawn at 0.017150 seconds.
+- Frame drawn at 0.024994 seconds.
+- Frame drawn at 0.030127 seconds.
+- Frame drawn at 0.037604 seconds.
+- 0.037604 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.25s
+Build styles took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
