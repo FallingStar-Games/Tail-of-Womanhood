@@ -1,6 +1,6 @@
 #First scene after cw
 
-define cg = Character("Pat", who_color="#006400")
+define cg = Character("Alan", who_color="#006400")
 define dw = Character("Emily")
 define dw_post = Character("Dustin")
 
@@ -17,7 +17,7 @@ label wolf:
     with fade
     show wolf after at right
 
-    dw_post "Hey, Pat."
+    dw_post "Hey, Alan."
 
     cg "Woah, you look different Emi-"
 
