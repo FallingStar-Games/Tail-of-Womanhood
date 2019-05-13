@@ -1,19 +1,19 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/placeholder/300x300.svg'>:
-  File "game/script.rpy", line 11, in script
-    cw "Hey."
+While loading <'Image' u'images/backgrounds/eantioch.png'>:
+  File "game/wolf.rpy", line 7, in script
+    cg "See ya next year, Emily."
   File "renpy/common/000window.rpy", line 98, in _window_auto_callback
     _window_show()
   File "renpy/common/000window.rpy", line 60, in _window_show
     renpy.with_statement(trans)
-Exception: Could not load image u'images/placeholder/300x300.svg': error('Unsupported image format',)
+IOError: Couldn't find file 'images/backgrounds/eantioch.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 11, in script
-    cw "Hey."
+  File "game/wolf.rpy", line 7, in script
+    cg "See ya next year, Emily."
   File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/ast.py", line 657, in execute
     statement_name("say")
   File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/ast.py", line 45, in statement_name
@@ -64,11 +64,11 @@ Full traceback:
     surf = image.load()
   File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/im.py", line 625, in load
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/display/pgrender.py", line 162, in load_image
-    raise Exception("Could not load image {!r}: {!r}".format(filename, e))
-Exception: Could not load image u'images/placeholder/300x300.svg': error('Unsupported image format',)
+  File "/home/powerkitten/Downloads/renpy-7.2.2-sdk/renpy/loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'images/backgrounds/eantioch.png'.
 
 Linux-4.20.0-15.1-liquorix-amd64-x86_64-with-debian-buster-sid
 Ren'Py 7.2.2.491
 A Tail of Womanhood InDev
-Mon May 13 16:45:53 2019
+Mon May 13 17:01:36 2019
