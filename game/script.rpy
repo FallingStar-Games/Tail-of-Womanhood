@@ -28,7 +28,9 @@ label start:
 
     cw "That's false, obviously."
 
-    cw "Please feel free to take breaks while experiencing this if you get overwhelmed or to return this game if it sets your PTSD off to the point of being unable to play it."
+    cw "All deadnames as well as some chosen names have also been changed, to protect both the guilty and the innocent."
+
+    cw "Please feel free to take breaks while experiencing this if you get overwhelmed, or to return this game if it sets your trauma off to the point of being unable to play it."
 
     cw "Thank you for listening to my story."
     #jump to wolf.rpy, the scene with Dustin.
