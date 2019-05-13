@@ -10,19 +10,7 @@ define cw = Character("Developer", who_color="#1f8b4c", what_color="#ff0000")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    #scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    #show eileen happy
-
-    # These display lines of dialogue.
+# Opening content warning message.
 
     cw "Hey."
 
@@ -43,7 +31,5 @@ label start:
     cw "Please feel free to take breaks while experiencing this if you get overwhelmed or to return this game if it sets your PTSD off to the point of being unable to play it."
 
     cw "Thank you for listening to my story."
-
-    # This ends the game.
-
-    return
+    #jump to wolf.rpy, the scene with Dustin.
+    jump wolf
