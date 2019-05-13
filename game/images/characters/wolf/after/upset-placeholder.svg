@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/powerkitten/Documents/A Tail of Womanhood/game/images/characters/wolf/after/default.png"
+   inkscape:export-xdpi="61.57576"
+   inkscape:export-ydpi="61.57576"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="upset-placeholder.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-75.714286"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="708"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       id="path3713"
+       style="stroke-width:0.26458332"
+       cy="149.2113"
+       cx="108.47916"
+       r="94.116081" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3718"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;"><flowRegion
+         id="flowRegion3720"
+         style="fill:#ffffff;"><rect
+           id="rect3722"
+           width="562.85712"
+           height="328.57144"
+           x="120"
+           y="399.66254"
+           style="fill:#ffffff;" /></flowRegion><flowPara
+         id="flowPara3724"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4531"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:12;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0;fill:#ffffff;fill-opacity:1;stroke:none;"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion4533"
+         style="fill:#ffffff;line-height:12;"><rect
+           id="rect4535"
+           width="511.42856"
+           height="328.57144"
+           x="162.85715"
+           y="396.80539"
+           style="fill:#ffffff;line-height:12;" /></flowRegion><flowPara
+         id="flowPara4537" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4539"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:12;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion4541"
+         style="line-height:12"><rect
+           id="rect4543"
+           width="468.57144"
+           height="388.57144"
+           x="180"
+           y="396.80539"
+           style="line-height:12" /></flowRegion><flowPara
+         id="flowPara4545">W</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4547"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0.8014279,0,0,0.8014279,-91.253227,-249.12213)"><flowRegion
+         id="flowRegion4549"
+         style="fill:#ffffff"><rect
+           id="rect4551"
+           width="500"
+           height="351.42856"
+           x="174.28572"
+           y="416.80539"
+           style="fill:#ffffff" /></flowRegion><flowPara
+         id="flowPara4553">Wolf</flowPara><flowPara
+         id="flowPara4583">After</flowPara><flowPara
+         id="flowPara4581">Upset</flowPara></flowRoot>  </g>
+</svg>
