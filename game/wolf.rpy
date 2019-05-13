@@ -8,8 +8,12 @@ label wolf:
 
     dw "See ya then."
 
+    show bg black
+    with dissolve
+    show wolf timejump
+
     show bg eantioch
-    with fade
+    with dissolve
     show wolf after at right
 
     dw_post "Hey, Alan."

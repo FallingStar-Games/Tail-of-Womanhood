@@ -6,6 +6,9 @@ label start:
 
 # Opening content warning message.
 
+
+    show bg black
+
     cw "Hey."
 
     cw "Welcome to {i}A Tail of Womanhood{/i}."
