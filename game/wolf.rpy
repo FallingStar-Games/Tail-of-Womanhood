@@ -8,12 +8,12 @@ label wolf:
 
     dw "See ya then."
 
-    show bg black
+    scene bg black
     with dissolve
 
     "At the start of the next school year."
 
-    show bg eantioch
+    scene bg eantioch
     with dissolve
     show wolf after at right
 
