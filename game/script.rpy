@@ -32,15 +32,15 @@ label start:
 
     cw "It includes online sexual abuse, self-doubt, and transgender feels."
 
-    cw "It is my hope that by not shying away from these elements,\n this experience will have the ability to help you."
+    cw "It is my hope that by not shying away from these elements, this experience will have the ability to help you."
 
     cw "What you're about to experience is the story of how I realized I was a transgender woman."
 
-    cw "Everything in this story is true,\nexcept for the part about realizing you're transgender turning you into a furry."
+    cw "Everything in this story is true, except for the part about realizing you're transgender turning you into a furry."
 
     cw "That's false, obviously."
 
-    cw "Please feel free to take breaks while experiencing this if you get overwhelmed\n or to return this game if it sets your PTSD off to the point of being unable to play it."
+    cw "Please feel free to take breaks while experiencing this if you get overwhelmed or to return this game if it sets your PTSD off to the point of being unable to play it."
 
     cw "Thank you for listening to my story."
 
