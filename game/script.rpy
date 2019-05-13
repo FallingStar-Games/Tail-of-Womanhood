@@ -1,11 +1,5 @@
 ﻿# The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define cw = Character("Developer", who_color="#1f8b4c", what_color="#ff0000")
-
-
 # The game starts here.
 
 label start:

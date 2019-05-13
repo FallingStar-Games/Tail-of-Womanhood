@@ -1,9 +1,4 @@
 #First scene after cw
-
-define cg = Character("Alan", who_color="#006400")
-define dw = Character("Emily")
-define dw_post = Character("Dustin")
-
 label wolf:
     scene bg eantioch
     show wolf before at right
