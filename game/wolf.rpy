@@ -16,6 +16,7 @@ label wolf:
     scene bg eantioch
     with dissolve
     show wolf after at right
+    show catgirl young at left
 
     dw_post "Hey, Alan."
 
