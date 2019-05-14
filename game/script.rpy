@@ -6,6 +6,7 @@ label start:
 
 # Opening content warning message.
 
+    default say_textbox = "textbox"
 
     show bg black
 

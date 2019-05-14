@@ -3,6 +3,7 @@ label wolf:
     scene bg eantioch
     show wolf before at right
     show catgirl young at left
+    $ say_textbox = "textbox_paper"
 
     cg "See ya next year, Emily."
 
@@ -10,6 +11,7 @@ label wolf:
 
     scene bg black
     with dissolve
+    $ say_textbox = "textbox"
 
     "At the start of the next school year."
 
@@ -17,6 +19,7 @@ label wolf:
     with dissolve
     show wolf after at right
     show catgirl young at left
+    $ say_textbox = "textbox_paper"
 
     dw_post "Hey, Alan."
 
